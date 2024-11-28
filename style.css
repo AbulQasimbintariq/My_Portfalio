@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: fantasy;
+
 }
 
 .logo{
@@ -110,7 +112,128 @@ footer{
     }
  
 }
+.heading{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(246, 175, 175); 
+    display:flex;
+     justify-content:space-evenly;
+     align-items: center;
+
+}
+.heading:hover{
+    background-color: rgb(220, 160, 160);
+    cursor: pointer;
+}
+/* .heading1:hover{
+    background-color: rgb(220, 160, 160);
+    cursor: pointer;
+}
+.heading1:hover{
+    background-color: rgb(220, 160, 160);
+    cursor: pointer;
+}
+.heading3:hover{
+    background-color: rgb(225, 204, 204);
+    cursor: pointer;
+} */
  
+.heading h1{
+    font-size: 10vh;
+}
+.heading p{
+    font-size: 3vh;
+}
+.heading1 h1{
+    font-size: 10vh;
+}
+.heading1 p{
+    font-size: 3vh;
+}
+
+.heading1{
+    width: 100%;
+    height: 70vh;
+}
+.skillimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.heading2{
+    width: 100%;
+    height: 70vh;
+}
+.heading3{
+    width: 100%;
+    height: 70vh;
+}
+.skillcont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.profilepic{
+    background-image: url(/portfolioImg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+}
+ 
+
+ .Microsoft{
+    width:25%;
+    height:50vh;
+    border: 1px solid black ;
+ }
+ 
+ .advancelang{
+    width:25%;
+    height:50vh;
+    border: 1px solid black ;
+ }
+ .basiclang{
+    width:25%;
+    height:50vh;
+    border: 1px solid black ;
+ }
+ .htmlpic{
+    background-image: url(/html.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+ }
+ .Mspic{
+    background-image: url(/MS.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+ }
+ .box1{
+    width: 25%;
+    height: 50vh;
+    border: 1px solid black ;
+ }
+ .box1 p{
+    text-align: left;
+ }
+.box2 p{
+    text-align: left;
+ }
+.box3 p{
+    text-align: left;
+ }
+ .box3{
+    width: 25%;
+    height: 50vh;
+    border: 1px solid black ;
+ 
+ }
  
  
  
