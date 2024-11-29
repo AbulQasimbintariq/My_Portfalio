@@ -16,65 +16,110 @@
     
             <!-- navigation bar -->
              <div class="nav">
-                <a class="navOpts" href="#" >Home</a>
-                <a class="navOpts" href="#" >Skils</a>
-                <a class="navOpts" href="#" >Projects</a>
-                <a class="navOpts" href="#" >Contact Us</a>
+                <a class="navOpts" href="#sect" >Home</a>
+                <a class="navOpts" href="#sect_1" >Skills</a>
+                <a class="navOpts" href="#sect_2" >Projects</a>
+                <a class="navOpts" href="#sect_3" >Contact Us</a>
              </div>
         </header>
         <main>
+
 
          <!-- nav icon -->
           <div id="log2">AQ</div>
 
           <!-- Portfolio Page start -->
-           <div  class="heading">
-            <div class="profilepic"></div>
-            <div class="intro">
-              <h1>About Me</h1>
-              <p>I am <i>Abul Qasim Bin Tariq</i>.I am frontend web developer.Prarallely I am also under <i>Graduation.</i></p>
+          <a name="sect"></a>
+          <h1>introduction</h1>
+          <section id="info">
+              <img class="mypic" src="/photo.jpeg" alt="mypic">
+              <div class="para" >
+              <p><b style="font-size: 3rem;">Hello</b>, I'm <i>Abul Qasim Bin Tariq</i>.I'm a software engineer with a passion for web development.I have experience in various programming languages like Html, Css, and JavaScript.
+              I'm currently working as a Frontend Developer at open source, but I'm always open to new opportunities.
             </div>
+          </section>
+          <a name="sect_1"></a>
+          <h1>Skills</h1>
+            <section>
+              <container>
+                <div>
+                  <img style="border-top-left-radius:20px;border-top-right-radius:20px"  src="/html.jpg" alt="htmlpic">
+                  <p>I am working on HTML and Css computers languages.basic website layout,desing and stykeing developer.</p>
+                </div>
+              </container>
 
-           </div>
-           <div style="background-color: rgb(201, 178, 178);" class="heading1">
-            <h1>skills</h1>
-            <div class="skillcont">   
-               <div class="box1">
-                  <div class="img_cont">
-                  <div class="htmlpic"></div>
-                  <p>I am working on HTML and Css computers languages.basic website layout,desing and stykeing developer.</p> 
+              <container >
+                <div>
+                  <img style="border-top-left-radius:20px;border-top-right-radius:20px"  src="/Next_js.jpg" alt="nextpic">
+                  <p>Simultanously I am going through from javaascript and Next.Js (complete structure of website with <i>Frontend and backend</i>).</p>
+                </div>
+              </container>
 
-                 </div>
-              </div>
+              <container>
+                <div>
+                  <img style="border-top-left-radius:20px;border-top-right-radius:20px"  src="/MS.jpg" alt="Mspic">
+                  <p>
+                    I am good at MS Excel and Word. Documentation worksheats manegment are on my fingur tip.Pivot table,conditional formating,formuleas etc.
+                  </p>
+                </div>
+              </container>
+            </section> 
+            <a name="sect_2"></a>
+            <h1>Projects</h1>
+            <section id="sect2">
+              <container>
+                <div>
+                  <a href="https://github.com/AbulQasimbintariq" target="_blank"><img style="border-top-left-radius:20px;border-top-right-radius:20px" src="/github.png" alt="gitpic"> </a>
+                  <h2>Github</h2>
+                  <p>
+                    There are many projects you can see in the github my profile.
+                    Basic step projects in which you can see,
+                   <ul>
+                        <li>website layout codings</li>
+                        <li>styling</li>
+                        <li>ypeScript basic knowledge</li>
+                         <li> basic html and css use</li>
+                   </ul>
+                     
+                  </p>
+                </div>
+              </container>
 
-              <div style="text-wrap:wrap;" class="box3">
-                <div class="img_cont">
-                <div class="Mspic"></div>
-                <p >
-                  I am good at MS Excel and Word. Documentation worksheats manegment are on my fingur tip.
-                  pivot table,formuleas(Vlookup,Hlookup,Xlookup),conditional formating etc.
-                </p> 
+              <container >
+                <div>
+                <a href="https://vercel.com/abul-qasim-projects" target="_blank"><img style="border-top-left-radius:20px;border-top-right-radius:20px"  src="/vercel.png" alt="vercelpic"></a>                 
+                 <h2>Vecel</h2>
+                  <p>
+                    My deployment projects on vercel you can see how it display on laptop and android.
+                 </p>
+                </div>
+              </container>
 
-               </div>
+              <container>
+                <div>
+                <a href="https://www.linkedin.com/in/abul-qasim-bin-tariq-074a41323/ target="_blank""><img style="border-top-left-radius:20px;border-top-right-radius:20px"  src="/linkedin.png" alt="Inpic"></a>                 
+                <h2> Linkedin</h2>
+                  <p>
+                    My linked profile contain diffrent tyes my projects detailed and skills.
+                  </p>
+                </div>
+              </container>
+            </section>
+            <a name="sect_3"><h1>Contact Me</h1></a> 
+          <section id="sect3">
+            <div class="contact">
+              <form action="/submit" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Abul Qasim"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="abc@gmail.com"><br>
+                <label for="message">Message:</label><br>
+                <textarea rows="10" cols="53" id="message" name="message" required placeholder="write your message"></textarea><br>
+                <input type="submit" value="Submit">
+              </form>
             </div>
+          </section>
 
-              <div class="box3">
-                <div class="img_cont">
-                <div class="Mspic"></div>
-                <p>I am good at MS Excel and Word. Documentation worksheats manegment are on my fingur tip.Pivot table, formuleas(Vlookup,Hlookup,Xlookup),conditional formating etc</p> 
-                 </div>
-              </div>
-            </div>
-
-           </div>
-           <div style="background-color: rgb(228, 93, 93);" class="heading2">
-
-
-           </div>
-           <div style="background-color: rgb(96, 71, 71);" class="heading3">
-
-
-           </div>
 
           <!-- Portfolio Page end -->
 
@@ -82,14 +127,14 @@
         </main>
 
         <footer>
-                <div id="log3">AQ</div>
+                <div id="log3"><a style="text-decoration: none; color:black" href="/index.html">AQ</a></div>
                 <div id="para">This is My Portfolio.</div>
                 <hr>
                 <div id="mylinks">
-                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-square-upwork"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a style="padding: 10px;" href="https://www.linkedin.com/in/abul-qasim-bin-tariq-074a41323/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a style="padding: 10px;" href="https://github.com/AbulQasimbintariq" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a style="padding: 10px;" href="https://www.upwork.com/freelancers/~016adf5943a23620bc" target="_blank"><i class="fa-brands fa-square-upwork"></i></a>
+                    <a style="padding: 10px;" href="https://www.facebook.com/profile.php?id=61557762707642" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 </div>
 
         </footer>

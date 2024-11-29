@@ -1,8 +1,10 @@
-*{
+body{
     margin: 0;
     font-family: fantasy;
+    background-color: rgb(175, 244, 234);
 
 }
+ 
 
 .logo{
     background-color: rgb(90, 176, 238);
@@ -23,6 +25,9 @@
 }
 .navOpts{
     text-decoration: none;
+    color: rgb(90, 176, 238);
+    background-color:  rgb(84, 128, 124);
+    
 }
 
  
@@ -37,11 +42,13 @@
     border-radius: 50%;
     font-size: 6vh;
     background-color:  rgb(84, 128, 124);
+    box-shadow:2px 0 15px rgb(6, 236, 216);
+
 
 }
 #log2{
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 1%;
     position: fixed;
     display: flex;
     align-items: center;
@@ -53,6 +60,8 @@
     border-radius: 50%;
     font-size: 3vh;
     background-color:  rgb(84, 128, 124);
+    box-shadow:2px 0 15px rgb(6, 236, 216);
+
 
 }
 #log3{
@@ -70,6 +79,8 @@
     top: -20%;
     left: 50%;
     transform: translateX(-50%);
+    box-shadow:2px 0 15px rgb(6, 236, 216);
+
 }
 #intro{
     display: flex;
@@ -77,11 +88,7 @@
     align-items: center;
  
 }
-#myimg{
-    border-radius: 50%;
-    height: 30vh;
-    width: 30vh;
-}
+
 footer{
     width: 100%;
     height: 25vh;
@@ -89,14 +96,28 @@ footer{
     border-top-left-radius: 80px;
     text-align: center;
     font-size: 3vh;
+
 }
 #para{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(90, 176, 238);
+
    
 }
-@media (max-width: 600px){
+#mylinks{
+    background-color: rgb(90, 176, 238);
+
+}
+#mylinks a{
+    background: transparent;
+}
+#mylinks a i{
+    background-color: rgb(90, 176, 238);
+
+}
+@media (max-width: 900px){
     .nav{
         position: absolute;
         height: 100vh;
@@ -110,130 +131,102 @@ footer{
         z-index: 2;
         
     }
+    container{
+        width: vh;
+    }
+
  
 }
-.heading{
-    width: 100%;
-    height: 70vh;
-    background-color: rgb(246, 175, 175); 
-    display:flex;
-     justify-content:space-evenly;
-     align-items: center;
-
-}
-.heading:hover{
-    background-color: rgb(220, 160, 160);
-    cursor: pointer;
-}
-/* .heading1:hover{
-    background-color: rgb(220, 160, 160);
-    cursor: pointer;
-}
-.heading1:hover{
-    background-color: rgb(220, 160, 160);
-    cursor: pointer;
-}
-.heading3:hover{
-    background-color: rgb(225, 204, 204);
-    cursor: pointer;
-} */
- 
-.heading h1{
-    font-size: 10vh;
-}
-.heading p{
-    font-size: 3vh;
-}
-.heading1 h1{
-    font-size: 10vh;
-}
-.heading1 p{
-    font-size: 3vh;
-}
-
-.heading1{
-    width: 100%;
-    height: 70vh;
-}
-.skillimg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.heading2{
-    width: 100%;
-    height: 70vh;
-}
-.heading3{
-    width: 100%;
-    height: 70vh;
-}
-.skillcont{
+section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    background-color: rgb(166, 229, 207)
+}
+section:hover{
+    background-color: rgb(159, 214, 210);
+}
+
+img{
     width: 100%;
+    height: auto;
 }
-.profilepic{
-    background-image: url(/portfolioImg.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 35vh;
-    width: 35vh;
+container{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    width: 40vh;
+    height: 60vh;
+    background-color: rgb(90, 176, 238);
+    box-shadow:2px 0 20px rgb(84, 128, 124);
+    text-align: center; 
+    margin: 10px; 
+}
+container h1,
+#sect2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    background-color:rgb(159, 214, 210);
+}
+
+#sect2:hover{
+    background-color:rgb(166, 229, 207);
+}
+#sect3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: rgb(175, 244, 234);
+}
+
+#sect3:hover{
+    background-color:rgb(159, 214, 210);
+
+}
+.contact h2,form{
+    font-size: 6vh;
+ 
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline 
+}
+input{
+    width: 25rem;
+    height: 2rem;
+}
+.mypic{
+    width: 50vh;
+    height: 50vh;
     border-radius: 50%;
+    box-shadow:2px 0 15px rgb(6, 236, 216);
+
 }
+.para{
+    width: 80vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+#info{
+    display: flex;
+  
+    /* height: 100vh; */
+    /* background-color: rgb(175, 244, 234);  */
+}
+
+ 
  
 
- .Microsoft{
-    width:25%;
-    height:50vh;
-    border: 1px solid black ;
- }
- 
- .advancelang{
-    width:25%;
-    height:50vh;
-    border: 1px solid black ;
- }
- .basiclang{
-    width:25%;
-    height:50vh;
-    border: 1px solid black ;
- }
- .htmlpic{
-    background-image: url(/html.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 200px;
- }
- .Mspic{
-    background-image: url(/MS.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 20vh;
- }
- .box1{
-    width: 25%;
-    height: 50vh;
-    border: 1px solid black ;
- }
- .box1 p{
-    text-align: left;
- }
-.box2 p{
-    text-align: left;
- }
-.box3 p{
-    text-align: left;
- }
- .box3{
-    width: 25%;
-    height: 50vh;
-    border: 1px solid black ;
- 
- }
  
  
  
