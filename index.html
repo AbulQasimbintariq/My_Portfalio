@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+  <script>
+   var navbar1= document.getElementById("navbar1");
+   function showmanu(){
+     navbar1.style.left="0";
+   }
+     function hidemanu(){
+       navbar1.style.left="-300px";
+  
+   }
+  </script>
+
         <header>
             <!-- logo -->
             <div class="logo">
@@ -15,7 +26,8 @@
             </div>
     
             <!-- navigation bar -->
-             <div class="nav">
+             <div class="nav" id="navbar1">
+              <i class="fa-solid fa-xmark" onclick="hidemanu()"></i>
                 <a class="navOpts" href="#sect" >Home</a>
                 <a class="navOpts" href="#sect_1" >Skills</a>
                 <a class="navOpts" href="#sect_2" >Projects</a>
@@ -26,7 +38,7 @@
 
 
          <!-- nav icon -->
-          <div id="log2">AQ</div>
+          <div id="log2" onclick="showmanu()">AQ</div>
 
           <!-- Portfolio Page start -->
           <a name="sect"></a>

@@ -192,3 +192,15 @@ Portfalio
   my deployment projects on vercel you can see how it display on laptop and  android
   linkedin
   my linked profile contain diffrent tyes my projects detailed and skills
+
+
+
+
+     var navbar1= document.getElementById("navbar1");
+   function showmanu(){
+     navbar1.style.left="0";
+   }
+     function hidemanu(){
+       navbar1.style.left="-300px";
+  
+   }
