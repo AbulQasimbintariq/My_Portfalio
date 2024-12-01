@@ -8,36 +8,34 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <script>
-   var navbar1= document.getElementById("navbar1");
-   function showmanu(){
-     navbar1.style.left="400";
-   }
-     function hidemanu(){
-       navbar1.style.left="0";
-   }
-  </script>
 
-        <header>
+
+        
             <!-- logo -->
             <div class="logo">
                 <div id="log1">AQ</div>
             </div>
     
             <!-- navigation bar -->
-             <div class="nav" id="navbar1">
-              <i class="fa-solid fa-xmark" onclick="hidemanu()"></i>
+            <nav>
+            <div class="nav" id="nav">
+              <i class="fa-solid fa-xmark" onclick="hide()"></i>
                 <a class="navOpts" href="#sect" >Home</a>
                 <a class="navOpts" href="#sect_1" >Skills</a>
                 <a class="navOpts" href="#sect_2" >Projects</a>
                 <a class="navOpts" href="#sect_3" >Contact Us</a>
              </div>
-        </header>
+             <!-- <i class="fa-solid fa-bars" onclick="show()"></i> -->
+            </nav>
+        
+        
         <main>
+          
 
 
          <!-- nav icon -->
-          <div class="log2" id="navbar1" onclick="showmanu()">AQ</div>
+          
+          <div class="log2" onclick="show()">AQ</div>
 
           <!-- Portfolio Page start -->
           <a name="sect"></a>
@@ -149,6 +147,15 @@
                 </div>
 
         </footer>
+        <script>
+          var nav = document.getElementById("nav");
+          function show() {
+            nav.style.left = "0";
+          }
+          function hide() {
+            nav.style.left = "-350px";
+          }
+        </script> 
 
         
 </body>

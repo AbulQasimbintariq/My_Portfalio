@@ -47,7 +47,7 @@ body{
 
 }
 .log2{
-    top: 50%;
+    top: 30%;
     left: 1%;
     position: fixed;
     display: flex;
@@ -123,9 +123,9 @@ footer{
     background-color: rgb(90, 176, 238);
 
 }
-header i{
-    color: rgb(84, 128, 124);
-}
+ .nav i{
+    display: none;
+ }
 
 section{
     display: flex;
@@ -210,22 +210,29 @@ input{
 #info{
     display: flex;
   
-    /* height: 100vh; */
-    /* background-color: rgb(175, 244, 234);  */
+ 
 }
 @media (max-width: 700px){
+ 
     .nav{
         position: absolute;
         height: 100vh;
         width: 50%;
-        background-color:  rgb(84, 128, 124);
+        background-color:  rgb(145, 205, 200);
         top: 0;
-        left: -400px;
+        left: -350px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         z-index: 2;
         
+    }
+    .nav a{
+        background-color:  rgb(145, 205, 200);
+
+    }
+    .nav a:hover{
+        color:rgb(25, 88, 133) ;
     }
     textarea{
         column-fill: auto;
