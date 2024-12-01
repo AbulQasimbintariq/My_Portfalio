@@ -227,6 +227,9 @@ input{
         z-index: 2;
         
     }
+    .nav i{
+        display: block;
+     }
     .nav a{
         background-color:  rgb(145, 205, 200);
 
@@ -237,10 +240,7 @@ input{
     textarea{
         column-fill: auto;
     }
-    /* #sect2{
-        
-        height: 60vh;
-    } */
+ 
     section{
         height: 60vh;
         display: flex;
