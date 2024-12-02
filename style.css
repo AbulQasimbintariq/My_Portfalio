@@ -241,11 +241,11 @@ input{
         column-fill: auto;
     }
  
-    section{
+    /* section{
         height: 60vh;
         display: flex;
         flex-wrap: wrap
-    }
+    } */
     
     #log3{
          top: -35%;
