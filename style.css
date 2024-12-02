@@ -223,8 +223,10 @@ input{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        z-index: 2;
-        
+        z-index: 2;   
+    }
+    #message{
+        width: 240px;
     }
     .nav i{
         display: block;
