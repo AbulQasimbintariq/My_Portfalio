@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed
 }
 .nav{
     display: flex;
@@ -43,7 +44,7 @@ body{
     font-size: 6vh;
     background-color:  rgb(84, 128, 124);
     box-shadow:2px 0 15px rgb(6, 236, 216);
-
+    position: relative;
 
 }
 .log2{
